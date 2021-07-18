@@ -1,0 +1,73 @@
+* {
+  font-family: open sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.img {
+  width: 500px;
+}
+.section-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one {
+  background-image: url(../Desafio-01-Gama-VTEX/assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-content {
+  height: 0.1px;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(../Desafio-01-Gama-VTEX/assets/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.background-section-two {
+  background-image: url(../Desafio-01-Gama-VTEX/assets/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-container {
+  border-radius: 250px;
+  padding: 50px;
+  max-width: 500px;
+  background: white;
+}
+
+form {
+  display: grid;
+}
+
+input {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background: #ffffff;
+  color: black;
+}
+
+footer {
+  line-height: 2;
+  height: 30px;
+  padding: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
